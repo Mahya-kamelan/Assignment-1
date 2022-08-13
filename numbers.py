@@ -1,0 +1,5 @@
+number=int(input("enter A 6-digit number:"))
+digit2= (number // 10 % 10)
+digit5= (number // 1000 % 10)
+sum= (digit2+digit5)
+print(sum)
